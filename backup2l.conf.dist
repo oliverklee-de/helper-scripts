@@ -53,6 +53,9 @@ SKIPCOND=(
 # ISO (DVD/CD) images
 -o -name "*.iso"
 
+# Chrome AI model
+-o -name "weights.bin"
+
 # Discord caches and settings
 -o -path "*/.config/discord/*"
 

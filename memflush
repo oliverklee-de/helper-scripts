@@ -9,5 +9,6 @@ echo 'Flushing the memory caches and the swap partition/file …'
 
 sudo su -c "echo 3 > '/proc/sys/vm/drop_caches'" root
 sudo swapoff -a && sudo swapon -a
+sudo sync
 
 success 'Done.'
